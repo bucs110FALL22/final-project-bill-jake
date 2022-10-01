@@ -7,10 +7,11 @@
 
 << [repl](#) >>
 
-<< [link to demo presentation slides](#) >>
+https://replit.com/join/vvallscajd-bdang2)
 
-### Team: << team name >>
-#### << Team Members >>
+### Team: Bill & Jake
+#### Binh Dang
+     Jake Tapia
 
 ***
 
