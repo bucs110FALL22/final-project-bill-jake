@@ -69,8 +69,15 @@ The Project is broken down into the following file structure:
 
 ## ATP
 
-| Step                 |Procedure             |Expected Results                   |
+| Step      |Procedure|Expected Results        
+                                   |
 |----------------------|:--------------------:|----------------------------------:|
 |  1                   | Run Counter Program  |GUI window appears with count = 0  |
 |  2                   | click count button   | display changes to count = 1      |
 etc...
+1 |Open the terminal and  navigate to the terminal and press run button|program start
+2|Click one time to the black screen|let the shark move
+3|Press only one time the LEFT,RIGHT,UP,DOWN button|to move the shark to the LEFT,RIGHT,UP,DOWN
+4|Led the shark close to the food|The shark eat the food
+5|Don't let the shark touch the edge of the screen|game will be over and it start again
+6|Press the x button on the top screen|Let the game stop
