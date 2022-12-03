@@ -1,5 +1,5 @@
 from enum import Enum
-
+#Direction for the Shark
 class Direction(Enum):
   UP = 0
   DOWN = 1
@@ -18,15 +18,16 @@ class Shark:
     self.block_size = block_size
     self.bounds = bounds
     self.respawn()
-
+#Appear at the beginning of the program, always heading to the RIGHT
   def respawn(self):
     self.length = 0.5
     self.body = [(20,20),(20,40),(20,60)]
     self.direction = Direction.RIGHT
-    
+   #Draw a Shark 
   def draw(self, game, window):
     for segment in self.body:
       game.draw.rect(window, self.color, (segment[0],segment[1],self.block_size, self.block_size))
+      #Move the head and the whole body
   def move(self):
       curr_head = self.body[-1]
       if self.direction == Direction.DOWN:
@@ -53,16 +54,15 @@ class Shark:
         self.direction = direction
       elif self.direction == Direction.RIGHT and direction != Direction.LEFT:
         self.direction = direction
-  def eat(self):
-      self.length += 0
+  #If the shark head  touch the food then the food will move to random position
   def check_for_food(self, food):
       head = self.body[-1]
       if head[0] == food.x and head[1] == food.y:
-        self.eat()
+       
         food.respawn()
   
   
-      
+      #If the shark get out of the screen edge, return True, else return False
   def check_bounds(self):
       head = self.body[-1]
       if head[0] >= self.bounds[0]:

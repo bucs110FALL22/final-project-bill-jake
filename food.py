@@ -10,10 +10,10 @@ class Food:
     def __init__(self, block_size, bounds):
         self.block_size = block_size
         self.bounds = bounds
-
+#Draw Food
     def draw(self, game, window):
         game.draw.rect(window, self.color, (self.x, self.y, self.block_size, self.block_size))
-    
+    #Move to random locations but not outside screen
     def respawn(self):
         blocks_in_x = (self.bounds[0])/self.block_size; 
         blocks_in_y = (self.bounds[1])/self.block_size; 
