@@ -17,7 +17,7 @@ https://replit.com/join/vvallscajd-bdang2)
 
 ## Project Description
 
-<< Give an overview of your project >>
+<< The shark will eat the food and get some points, it will die when touch the falling bomb or get of the screen >>
 
 ***    
 
