@@ -1,6 +1,6 @@
 class Bomb:
     block_size = None
-    color = (0,255,0)
+    color = (0,0,0)
   #Set the bomb location
     x = 150; 
     y = 0; 

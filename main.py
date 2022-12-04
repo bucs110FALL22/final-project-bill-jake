@@ -48,7 +48,7 @@ class Controller:
         pygame.time.delay(1000)
         self.shark.respawn()
         self.food.respawn()
-      self.window.fill((0,0,0))
+      self.window.fill((255,0,0))
       #draw each  sprite
       self.shark.draw(pygame, self.window)
       self.food.draw(pygame, self.window)

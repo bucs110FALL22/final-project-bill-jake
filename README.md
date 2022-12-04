@@ -43,7 +43,10 @@ https://replit.com/join/vvallscajd-bdang2)
     * << A simple drawing that shows the class relationships in your code (see below for an example). This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm. >>
         * ![class diagram](assets/class_diagram.jpg) 
 * Classes
-    * << You should have a list of each of your classes with a description. >>
+    Class Controller:this class is the main control of every class and contain a game loop as well.
+    Class Shark: This class create a shark on the screen, the movement, how its eat the food and die when hit objects.
+    Class food: This class create a food and appear in different location when eaten by a shark.
+    Class bomb: This class appear at the top of the screen and falling down in random locations and when it hit the shark then Game Over
 
 ## Project Structure and File List
 
@@ -51,7 +54,10 @@ The Project is broken down into the following file structure:
 
 * main.py
 * src
-    * << all of your python files should go here >>
+    main.py
+    shark.py
+    food.py
+    bomb.py
 * assets
     * << all of your media, i.e. images, font files, etc, should go here) >>
 * etc
