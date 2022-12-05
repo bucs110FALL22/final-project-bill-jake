@@ -1,44 +1,43 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
-# << Project Title >>
+# Shark
 ## CS 110 Final Project
-### << Semester, Year >>
+### Fall Semester, 2022
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
-<< [repl](#) >>
+### [Link to slides]
+https://docs.google.com/presentation/d/1DByK59KxfeOJJtzZoS-2DV6XDkB8ZxykqTnrrmnpAv4/edit#slide=id.g33aee8826e_9_10 
 
 https://replit.com/join/vvallscajd-bdang2)
 
 ### Team: Bill & Jake
-#### Binh Dang
-     Jake Tapia
+#### Binh Dang and Jake Tapia
 
 ***
 
 ## Project Description
 
-<< The shark will eat the food and get some points, it will die when touch the falling bomb or get of the screen >>
+The shark will eat the food and get some points, it will die when touch the falling bomb or get of the screen
 
 ***    
 
 ## User Interface Design
 
 - **Initial Concept**
-  - << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components. >>
-    
+  - The game over screen appears when the shark hits the wall.
     
 - **Final GUI**
-  - << You should also have a screenshot of each screen for your final GUI >>
+  - 
 
 ***        
 
 ## Program Design
 
 * Non-Standard libraries
-    * << You should have a list of any additional libraries or modules used (pygame, request) beyond non-standard python. 
-         For each additional module you should include
-         - url for the module documentation
-         - a short description of the module >>
+    Pygame
+         - https://www.pygame.org/docs/
+         - provides the building blocks to create the game
+        
 * Class Interface Design
     * << A simple drawing that shows the class relationships in your code (see below for an example). This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm. >>
         * ![class diagram](assets/class_diagram.jpg) 
@@ -66,12 +65,10 @@ The Project is broken down into the following file structure:
 ***
 
 ## Tasks and Responsibilities 
-
-   * Outline the team member roles and who was responsible for each class/method, both individual and collaborative.
+Most was collaborative but Bill played a big part in coding the controller.
 
 ## Testing
-
-* << Describe your testing strategy for your project. >>
+We tested our program by constantly running our code.
 
 ## ATP
 
